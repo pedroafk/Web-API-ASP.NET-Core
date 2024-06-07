@@ -27,6 +27,8 @@ public class ProductDTO{
 
     public string? ImageURL {get; set;}
 
+    public string? CategoryName {get; set;}
+
     [JsonIgnore]
     public Category? Category {get; set;}
 
